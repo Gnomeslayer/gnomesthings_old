@@ -15,8 +15,8 @@
 		</div>
 		<div class="boxcontent">
 		<div class="buttoncontainer">
-				<a href="<?php echo $blog['github']; ?>" Target="_BLANK"><div class="button">View on github!</div></a>
-				<a href="<?php echo $blog['thing']; ?>" Target="_BLANK"><div class="button">View it live on my website!</div></a>
+				<a href="<?php echo $blog['github']; ?>" Target="_BLANK"><div class="button github_button">View on github!</div></a>
+				<a href="<?php echo $blog['thing']; ?>" Target="_BLANK"><div class="button demo_button">View it live on my website!</div></a>
 				
 			</div>
 			<p><?php echo $blog['content']; ?></p>
