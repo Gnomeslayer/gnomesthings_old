@@ -160,7 +160,7 @@ body
 	padding: 10px;
 
 	min-height: 75px;
-	min-width: 50%;
+	min-width: 75%;
 	resize: both;
 	overflow: auto;
 	max-height: fit-content;
@@ -180,7 +180,7 @@ body
 	background-color: rgb(62,62,62);
 	padding: 10px;
 
-	width: fit-content;
+	min-width: fit-content;
 
 	-webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
@@ -195,7 +195,7 @@ body
 	background-color: rgb(62,62,62);
 	padding: 10px;
 
-	width: fit-content;
+	min-width: fit-content;
 
 	-webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
@@ -210,7 +210,7 @@ body
 	background-color: rgb(62,62,62);
 	padding: 10px;
 
-	width: fit-content;
+	min-width: fit-content;
 
 	-webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
@@ -232,7 +232,6 @@ body
     height: 50px;
     margin-left: 5px;
     padding: 5px;
-    float: left;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
     border-radius: 7px;
@@ -244,4 +243,20 @@ body
     text-align: center;
     vertical-align: middle;
     line-height: 50px;
+}
+
+.edit, .delete
+{
+	float: right;
+}
+
+.github_button, .demo_button
+{
+	float: left;
+}
+
+.buttoncontainer
+{
+	min-width: fit-content;
+	min-height: 50px;
 }
